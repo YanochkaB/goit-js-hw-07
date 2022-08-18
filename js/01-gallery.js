@@ -70,7 +70,7 @@ function onClickEsc(evt) {
 }
 
 // function escPressKey(evt) {
-//     console.log(evt.code) //назва натиснутої клавіші
+//     console.log(evt.code) // натиснута клавіша
 //     if (evt.code === 'Escape') {
 
 //     }

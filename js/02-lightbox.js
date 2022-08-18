@@ -17,7 +17,7 @@ function createGaleryList(galleryItems) {
             href="${original}">
             <img class="gallery__image" 
             src="${preview}"
-            alt="${description}" />
+            alt="${description}">
         </a>
         </div>`;
         })
