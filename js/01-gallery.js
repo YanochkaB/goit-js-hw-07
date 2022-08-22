@@ -56,18 +56,6 @@ function onClick(evt) {
     instance.show();
 }
 
-gallery.addEventListener("keydown", onClickEsc);
-
-function onClickEsc(evt) {
-    evt.preventDefault()
-    const imgSrc = evt.target.src;
-    const instance = basicLightbox.create(`
-        <img
-        src="${imgSrc}"
-        >
-    `);
-    instance.show();
-}
 
 // function escPressKey(evt) {
 //     console.log(evt.code) // натиснута клавіша
